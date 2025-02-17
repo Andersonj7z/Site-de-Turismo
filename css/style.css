@@ -1,3 +1,8 @@
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 /*Barra de navegação*/
 .nav-top{
     background: linear-gradient(90deg, #D4A017, #E5B80B);
@@ -46,7 +51,6 @@
     padding: 2em !important;
 }
 
-/*Carrossel*/
 .sec-pacotes{
     margin-left: 10% !important;
     margin-right: 10% !important;
@@ -62,11 +66,7 @@
 
 /*Mapa*/
 .mapa {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-top: 20px;
+    margin-top: 14px !important;
 }
 
 .mapa-iframe {
@@ -113,6 +113,7 @@ footer{
     footer {
         font-size: 12px !important;
         padding: 5px !important;
+        text-align: center !important;
     }
 
     /*Mapa*/
