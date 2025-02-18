@@ -19,9 +19,9 @@ html, body {
 
 /* Botões */
 .btn {
-    border-radius: 20px;
-    font-weight: bold;
-    transition: 0.3s;
+    border-radius: 20px !important;
+    font-weight: bold !important;
+    transition: 0.3s !important;
 }
 
 .btn:hover {
@@ -60,19 +60,14 @@ html, body {
 
 .sec-contato{
     margin-bottom: 5%;
-    margin-left: 5% !important;
-    margin-right: 5% !important;
+    margin-left: 2% !important;
+    margin-right: 2% !important;
 }
 
 /*Mapa*/
 .mapa {
     margin-top: 14px !important;
-}
-
-.mapa-iframe {
-    width: 100%;
-    min-height: 300px;
-    border-radius: 10px;
+    
 }
  
 /*Footer*/
@@ -120,9 +115,5 @@ footer{
     .mapa{
         width: 70% !important;
         margin-top: 10px !important;
-    }
-
-    .mapa-iframe{
-        min-height: 250px !important;
     }
 }
